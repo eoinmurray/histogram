@@ -5,17 +5,16 @@ Ripped from d3.js. this histogram function is fully self contained and can be dr
 
 It was created originally for use with webworkers.
 
-```javascript
+
 	histogram({
-		data : arr,
-		i : bins.length,
-		bins : bins
+		data : Array,
+		bins : Array
 	})
-```
+
 
 #### Example.
 
-```javascript
+
 	var histogram = require('./histogram')
 
 	var linspace = function linspace(a,b,n) {
@@ -39,7 +38,6 @@ It was created originally for use with webworkers.
 
 	var data = histogram({
 		data : y,
-		i : x.length,
 		bins : x
 	})
 
@@ -47,9 +45,9 @@ It was created originally for use with webworkers.
 		console.log('[' + data[i].x + ',' +  data[i].y + '],')
 	}
 
-	
-```
-That produces this distribution.
+
+
+Run in node, it produces this distribution.
 
 
 ![](http://i.imgur.com/ZOAToPx.png)
