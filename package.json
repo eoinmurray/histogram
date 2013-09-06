@@ -1,0 +1,25 @@
+{
+  "name": "histogramjs",
+  "version": "0.0.1",
+  "description": "Simple histogram sorting",
+  "main": "histogram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eoinmurray/histogram"
+  },
+  "keywords": [
+    "histogram",
+    "bin-sort",
+    "sorting",
+    "data",
+    "d3"
+  ],
+  "author": "Eoin Murray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eoinmurray/histogram/issues"
+  }
+}
