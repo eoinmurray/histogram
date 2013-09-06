@@ -1,5 +1,10 @@
 ### Histogram.js
 
+```javascript
+	npm i histogramjs
+	var hist = require('histogramjs')
+```
+
 Frequency sort an array of data. 
 Ripped from d3.js. this histogram function is fully self contained and can be dropped easily into project.
 
