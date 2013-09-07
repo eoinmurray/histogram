@@ -31,8 +31,7 @@ It was created originally for use with webworkers.
 	    return ret;
 	}
 
-	var 
-		x = linspace(0, 12, 100),
+	var x = linspace(0, 12, 100),
 		y = [],
 		num;
 
